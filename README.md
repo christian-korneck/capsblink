@@ -50,8 +50,8 @@ sudo capsblink --device 2
 # there are several built-in blink patterns:
 sudo capsblink # standard pattern: regular continuous blink
 sudo capsblink --pattern slow # slow continuous blink
-sudo capsblink --p fast # fast continuous flashing
-sudo capsblink --p twoshort # two short flashes, long pause, repeat
+sudo capsblink -p fast # fast continuous flashing
+sudo capsblink -p twoshort # two short flashes, long pause, repeat
 
 # we can limit the number of times the pattern gets repeated
 # example: blink two times, then exit.
